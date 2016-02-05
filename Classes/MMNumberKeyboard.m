@@ -143,7 +143,7 @@ static const CGFloat MMNumberKeyboardPadSpacing = 8.0f;
     
     UIButton *doneButton = [_MMNumberKeyboardButton keyboardButtonWithType:MMNumberKeyboardButtonTypeDone];
     [doneButton.titleLabel setFont:doneButtonFont];
-    [doneButton setTitle:UIKitLocalizedString(@"Done") forState:UIControlStateNormal];
+    [doneButton setTitle:@"Svar" forState:(UIControlStateNormal)];
     
     [buttonDictionary setObject:doneButton forKey:@(MMNumberKeyboardButtonDone)];
     
