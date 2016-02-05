@@ -144,6 +144,7 @@ static const CGFloat MMNumberKeyboardPadSpacing = 8.0f;
     UIButton *doneButton = [_MMNumberKeyboardButton keyboardButtonWithType:MMNumberKeyboardButtonTypeDone];
     [doneButton.titleLabel setFont:doneButtonFont];
     [doneButton setTitle:@"Svar" forState:(UIControlStateNormal)];
+    doneButton.backgroundColor = UIColorFromRGB(0x519ac4);
     
     [buttonDictionary setObject:doneButton forKey:@(MMNumberKeyboardButtonDone)];
     
