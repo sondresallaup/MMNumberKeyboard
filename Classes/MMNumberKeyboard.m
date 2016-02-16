@@ -152,7 +152,7 @@ static const CGFloat MMNumberKeyboardPadSpacing = 8.0f;
     
     NSLocale *locale = self.locale ?: [NSLocale currentLocale];
     NSString *decimalSeparator = [locale objectForKey:NSLocaleDecimalSeparator];
-    [decimalPointButton setTitle:decimalSeparator ?: @"." forState:UIControlStateNormal];
+    [decimalPointButton setTitle:decimalSeparator ?: @"," forState:UIControlStateNormal];
     
     [buttonDictionary setObject:decimalPointButton forKey:@(MMNumberKeyboardButtonDecimalPoint)];
     
